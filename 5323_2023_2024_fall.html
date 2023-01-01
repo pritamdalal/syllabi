@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>FM 5323 - Fall 2023</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="5323_2023_2024_fall_files/libs/clipboard/clipboard.min.js"></script>
+<script src="5323_2023_2024_fall_files/libs/quarto-html/quarto.js"></script>
+<script src="5323_2023_2024_fall_files/libs/quarto-html/popper.min.js"></script>
+<script src="5323_2023_2024_fall_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="5323_2023_2024_fall_files/libs/quarto-html/anchor.min.js"></script>
+<link href="5323_2023_2024_fall_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="5323_2023_2024_fall_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="5323_2023_2024_fall_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="5323_2023_2024_fall_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="5323_2023_2024_fall_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#general-information" id="toc-general-information" class="nav-link active" data-scroll-target="#general-information">General Information</a></li>
+  <li><a href="#course-overview" id="toc-course-overview" class="nav-link" data-scroll-target="#course-overview">Course Overview</a></li>
+  <li><a href="#hy-flex" id="toc-hy-flex" class="nav-link" data-scroll-target="#hy-flex">Hy-Flex</a></li>
+  <li><a href="#programming" id="toc-programming" class="nav-link" data-scroll-target="#programming">Programming</a></li>
+  <li><a href="#canvas" id="toc-canvas" class="nav-link" data-scroll-target="#canvas">Canvas</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#reading-material" id="toc-reading-material" class="nav-link" data-scroll-target="#reading-material">Reading Material</a></li>
+  <li><a href="#topics" id="toc-topics" class="nav-link" data-scroll-target="#topics">Topics</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">FM 5323 - Fall 2023</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<!-- ***
+
+#### General Information
+- Instructor
+  - Pritam Dalal - pritam@umn.edu
+- Teaching Assistant 
+  - ????  
+- Meeting Times
+  - Tuesdays - 5:30 PM - 7:10 PM
+  - Thursdays - 5:30 PM - 6:20 PM (hy-flex)
+- Location
+  - ????
+- Pritam's Office Hours
+  - By Appointment
+- ???? Office Hours
+  - By Appointment -->
+<hr>
+<section id="general-information" class="level4">
+<h4 class="anchored" data-anchor-id="general-information">General Information</h4>
+<p><strong>Instructor:</strong> Pritam Dalal (pritam@umn.edu)</p>
+<p><strong>Teaching Assistant:</strong> TBD</p>
+<p><strong>Meeting Times:</strong> Tues 530p-710p; Thur 530p-620p (hy-flex)</p>
+<p><strong>Location:</strong> TBD</p>
+<p><strong>Pritam’s Office Hours:</strong> by appointment</p>
+<p><strong>TA Office Hours:</strong> TBD</p>
+<hr>
+</section>
+<section id="course-overview" class="level4">
+<h4 class="anchored" data-anchor-id="course-overview">Course Overview</h4>
+<p>This course is an introduction to the use of data science and machine learning in quantitative finance. Emphasis will be placed on the implementation of models in code, but there will also be treatment of some of the mathematical underpinnings of the models and techniques. By the end of the course, students should be able to apply a variety of techniques to a given problem, and to give some comparative assessment of model performance.</p>
+<hr>
+</section>
+<section id="hy-flex" class="level4">
+<h4 class="anchored" data-anchor-id="hy-flex">Hy-Flex</h4>
+<p>In lieu of in-person meetings on Thursdays, there will be a hy-flex assignment each week. Most of these will consist of tutorials for you to work through on your own time. However, there will be other formats sprinkled in as well.</p>
+<hr>
+</section>
+<section id="programming" class="level4">
+<h4 class="anchored" data-anchor-id="programming">Programming</h4>
+<p>Most of your time inside and outside of class will be spent programming. It is a requirement that all programming will be done with Python in Jupyter Notebooks. I will use JupyterLab as my IDE and I recommend you do the same.</p>
+<!-- We will spend a portion of the first class making sure everyone is up and running with Python and JupterLab. -->
+<hr>
+</section>
+<section id="canvas" class="level4">
+<h4 class="anchored" data-anchor-id="canvas">Canvas</h4>
+<p>I will make heavy use of the course Canvas for organizing the course. All course materials including tutorials, homework, and reading materials will be available there. All assignments will be posted and turned-in there as well.</p>
+<hr>
+</section>
+<section id="grading" class="level4">
+<h4 class="anchored" data-anchor-id="grading">Grading</h4>
+<p>Your letter grade will be based entirely on the individual homework assignments and group projects. There will be no midterms or final exam.</p>
+<p>Homeworks will be short data analysis programming tasks that are to be completed in the form of a self-contained Jupyter Notebook (Python). For individual assignments, you can discuss homework assignments with your classmates, but you are expected to code up your assignments by yourself. Cheating will result in all involved parties receiving a zero.</p>
+<p>Group projects will be larger data analysis tasks with a presentation component. You will also turn in a self-contained Jupyter Notebook for these.</p>
+<p>Late homeworks will be penalized by 50%. Late projects will be penalized by 20%.</p>
+<!-- In lieu of a final exam, we will spend 30 minutes during the final class discussing interview questions related to machine learning. -->
+<hr>
+</section>
+<section id="reading-material" class="level4">
+<h4 class="anchored" data-anchor-id="reading-material">Reading Material</h4>
+<p>All reading materials for the course are freely available; PDFs will be provided in the course Canvas. Here is the list of books I will reference:</p>
+<p><em>Deep Learning with Python 1e</em> - Francois Chollet</p>
+<p><em>Elements of Statistical Learning</em> - Trevor Hastie, Robert Tibshirani, Jerome H. Friedman</p>
+<p><em>Hands on Machine Learning with Scikit-Learn 2e</em> - Aurelian Geron</p>
+<p><em>Introduction to Statistical Learning 2e</em> - Gareth M. James, Trevor Hastie, Daniela Witten, Robert Tibshirani</p>
+<p><em>Machine Learning and Data Science Blueprints for Finance</em> - Hariom Tatsat, Sahil Puri, Brad Lookabaugh</p>
+<p><em>Options, Futures, and Other Derivatives 9e</em> - John C. Hull</p>
+<p><em>Python Data Science Handbook</em> -Jake VanderPlas</p>
+<p><em>Python for Data Analysis 2e</em> - Wes McKinney</p>
+<p><em>Python for Finance 2e</em> - Yves Hilpsch</p>
+<hr>
+</section>
+<section id="topics" class="level4">
+<h4 class="anchored" data-anchor-id="topics">Topics</h4>
+<p>This is a tentative schedule and may change at any time without notice. Please attend class to stay abreast of changes.</p>
+<ol type="1">
+<li>Python Data Analysis Fundamentals: Jupyter, <code>numpy</code>, <code>pandas</code>
+<ul>
+<li>Hilpsch chp 2, 4</li>
+<li>McKinney chp 4-5, 8, 10, 12</li>
+<li>VanderPlas <a href="https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html">chp 2</a> &amp; <a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html">chp 3</a></li>
+<li><a href="https://talkpython.fm/episodes/show/44/project-jupyter-and-ipython">Podcast: Talk Python To Me #44 - Project Jupyter and IPython</a></li>
+<li>tutorials: python_for_data_wrangling_in_finance (1-8)</li>
+</ul></li>
+<li>Introduction to Data Science
+<ul>
+<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/00.00-preface.html">VanderPlas Preface</a></li>
+<li><a href="https://talkpython.fm/episodes/show/56/data-science-from-scratch">Podcast: Talk Python To Me #56 - Data Science from Scratch</a></li>
+<li>slides: data_science_intro</li>
+</ul></li>
+<li>Understanding Option Replication via Data Analysis
+<ul>
+<li>Hull chp 19</li>
+<li>Hilpsch pp 356-358</li>
+<li><a href="https://talkpython.fm/episodes/show/120/python-in-finance">Podcast: Talk Python To Me #120 - Python in Finance</a></li>
+<li>tutorial: option_replication</li>
+<li>homework: option_pnl</li>
+</ul></li>
+<li>Visualization: <code>pandas</code>, <code>seaborn</code>, <code>bokeh</code>
+<ul>
+<li>slides: visualization_in_python</li>
+<li>tutorials: python_for_data_visualization_in_finance (1-6)</li>
+<li><a href="https://www.youtube.com/watch?v=FytuB8nFHPQ">Youtube: The Python Visualization Landscape PyCon 2017</a></li>
+</ul></li>
+<li>Linear Regression &amp; Introduction to scikit-learn
+<ul>
+<li>ISL2e chp 3</li>
+<li>ESL 3.1-3.2</li>
+<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html">Vanderplas 5.2</a></li>
+<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html">Vanderplas 5.6</a></li>
+<li><a href="https://talkpython.fm/episodes/show/31/machine-learning-with-python-and-scikit-learn">Podcast: Talk Python To Me #31 - Machine Learning with Python and scikit-learn</a></li>
+<li>slides: linear_regression</li>
+<li>tutorial: linear_regression</li>
+<li>homework: ewz_regression</li>
+</ul></li>
+<li>Volatility Forecasting
+<ul>
+<li>Hull pp 521-526</li>
+<li>Sepp 2016 pp 1-55</li>
+<li>Bennett &amp; Gil 2012</li>
+<li>Hansen &amp; Lunde 2004</li>
+<li>slides: volatility_forecasting</li>
+<li>tutorial: close_to_close</li>
+<li>tutorial: garch</li>
+<li>project: volatility_forecasting</li>
+</ul></li>
+<li>Introduction to Machine Learning
+<ul>
+<li>ISL1e chp 1-2</li>
+<li>ESL chp 1-2</li>
+<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.01-what-is-machine-learning.html">VanderPlas 5.1</a></li>
+<li>slides: machine_learning_intro</li>
+</ul></li>
+<li>K-Nearest Neighbors &amp; Cross-Validation:
+<ul>
+<li>ISL2e chp 5</li>
+<li><a href="https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation">sklearn documentation: cross-validation</a></li>
+<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html">VanderPlas 5.3</a></li>
+<li>slides: resampling_methods</li>
+<li>tutorial: k_nearest_neighbors_cross_validation</li>
+<li>homework: k_nearest_neighbors</li>
+</ul></li>
+<li>Stock Market Prediction
+<ul>
+<li>Tatsat, Puri, Lookabaugh pp 95-113</li>
+<li>tutorial: stock_prediction</li>
+<li>homework: stock_prediction</li>
+</ul></li>
+<li>Principle Components Analysis:
+<ul>
+<li>ISL2e 12.1-12.2</li>
+<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/04.09-principal-component-analysis.html">VanderPlas 4.9</a></li>
+<li><a href="https://scikit-learn.org/stable/modules/decomposition.html#pca">sklearn documentation: PCA</a></li>
+<li><a href="https://talkpython.fm/episodes/show/131/top-10-machine-learning-libraries">Podcast: Talk Python To Me #131 - Top 10 Machine Learning Libraries</a></li>
+<li>slides: unsupervised_learning</li>
+<li>tutorial: pca</li>
+<li>tutorial: pca_visualization</li>
+<li>homework: sector_pca</li>
+</ul></li>
+<li>K-means clustering
+<ul>
+<li>ISL2e 12.4</li>
+<li>slides: unsupervised_learning</li>
+<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html">VanderPlas 5.11</a></li>
+<li>tutorial: k_means_clustering</li>
+<li>homework: k_means_clustering</li>
+</ul></li>
+<li>Classification:
+<ul>
+<li>ISL2e 4.1-4.3</li>
+<li>slides: classification</li>
+<li><a href="http://www.win-vector.com/blog/2011/09/the-simpler-derivation-of-logistic-regression/">Blog: The Simpler Derivation of Logistic Regression</a></li>
+<li><a href="https://talkpython.fm/episodes/show/171/1m-jupyter-notebooks-analyzed">Podcast: Talk Python To Me #171 - 1 Million Jupyter Notebooks Analyzed</a></li>
+</ul></li>
+<li>Tree-Based Methods:
+<ul>
+<li>ISL2e chp 8</li>
+<li>slides: tree_based_methods</li>
+<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.08-random-forests.html">VanderPlas 5.8</a></li>
+<li><a href="https://scikit-learn.org/stable/modules/tree.html">sklearn documentation: Decision Tress</a></li>
+<li><a href="https://scikit-learn.org/stable/modules/ensemble.html#forest">sklearn documentation: Random Forests</a></li>
+<li><a href="https://talkpython.fm/episodes/show/198/catching-up-with-the-anaconda-distribution">Podcast: Talk Python To Me #198 - Catching Up with the Anaconda Distribution</a></li>
+</ul></li>
+<li>Predicting Student Loan Prepayment
+<ul>
+<li><a href="https://talkpython.fm/episodes/show/220/machine-learning-in-the-cloud-with-azure-ml">Podcast: Talk Python To Me #220 - Machine Learning with Azure ML</a></li>
+<li>tutorial: student_loan (1-4)</li>
+<li>project: student_loan</li>
+</ul></li>
+<li>Data Cleaning
+<ul>
+<li><a href="https://www.kaggle.com/datasets/wordsforthewise/lending-club">Kaggle Lending Club Data</a></li>
+</ul></li>
+<li>Option Volume Prediction
+<ul>
+<li><a href="https://talkpython.fm/episodes/show/236/scaling-data-science-across-python-and-r">Podcast: Talk Python To Me #236 - Scaling Data Science Across Python and R</a></li>
+<li><a href="https://talkpython.fm/episodes/show/298/building-ml-teams-and-finding-ml-jobs">Podcast: Talk Python To Me #298 - Building ML Teams and Finding ML Jobs</a></li>
+<li>tutorial: option_volume (a-d)</li>
+</ul></li>
+<li>Neural Networks
+<ul>
+<li>Chollet chp 1-4</li>
+<li>ISL2e 10.1-10.2; 10.7.0-10.7.3</li>
+<li>Tatsat, Puri, Lookabaugh chpt 3; pp 71-73</li>
+<li>slides: neural_networks</li>
+<li>tutorial: mnist_digit_recognition</li>
+<li>tutorial: student_loan_neural_network</li>
+<li>tutorial: exchange_rate</li>
+<li>tutorial: stock_prediction_neural_network</li>
+<li>tutorial: numerai</li>
+<li>tutorial: recurrent_neural_networks</li>
+<li><a href="https://www.youtube.com/watch?v=aircAruvnKk&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=1">Youtube: 3Blue1Brown - Neural Networks Episode 1</a></li>
+<li><a href="https://www.youtube.com/watch?v=IHZwWFHWa-w&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=2">Youtube: 3Blue1Brown - Neural Networks Episode 2</a></li>
+<li><a href="https://www.youtube.com/watch?v=Ilg3gGewQ5U&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=3">Youtube: 3Blue1Brown - Neural Networks Episode 3</a></li>
+<li><a href="https://www.youtube.com/watch?v=tIeHLnjs4U8&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=4">Youtube: 3Blue1Brown - Neural Networks Episode 4</a></li>
+</ul></li>
+<li>Programming Topics
+<ul>
+<li>Virtual Environments</li>
+<li>Pickle Files</li>
+<li>Pipelines</li>
+</ul></li>
+</ol>
+<!-- 1. Putting it All Together -->
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
