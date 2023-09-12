@@ -5,6 +5,7 @@ format:
     toc: true
     toc-depth: 4
     theme: lumen
+    embed-resources: true
 editor:
   render-on-save: true
 ---
@@ -119,6 +120,10 @@ This is a tentative schedule and may change at any time without notice.  An up-t
     - P4DSF: *Black-Scholes-Merton Option Replication*
     - homework: option_pnl
 
+1. Asset Allocation
+    - P4DSF: *Asset Allocation*
+    - homework: asset_allocation
+    
 1. Trend Following
     - P4DSF: *Trend Following*
     - *A Quantitative Approach to Tactical Asset Allocation* - Meb Faber
