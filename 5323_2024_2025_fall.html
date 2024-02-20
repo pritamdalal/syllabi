@@ -3025,7 +3025,7 @@ vertical-align: -.125em;
 <h4 class="anchored" data-anchor-id="general-information">General Information</h4>
 <p><strong>Instructor:</strong> Pritam Dalal (pritam@umn.edu)</p>
 <p><strong>Teaching Assistant:</strong> TBD</p>
-<p><strong>Meeting Times:</strong> Tues 530p-710p; Thur 530p-620p (hy-flex)</p>
+<p><strong>Meeting Times:</strong> Tues 530p-710p (in-person); Thur 530p-620p (hy-flex)</p>
 <p><strong>Location:</strong> TBD</p>
 <p><strong>Pritam’s Office Hours:</strong> by appointment (virtual)</p>
 <p><strong>TA Office Hours:</strong> by appointment (virtual)</p>
@@ -3059,12 +3059,12 @@ vertical-align: -.125em;
 <p>Your letter grade will be based entirely on the individual homework assignments and projects. There will be no midterms or final exam.</p>
 <p>Homeworks will be short data analysis programming tasks that are to be completed in the form of a self-contained Jupyter Notebook (written in Python). For individual assignments, you can discuss them with your classmates, but you are expected to code up your final solution by yourself. Cheating will result in all involved parties receiving a zero.</p>
 <p>Projects will be larger data analysis tasks with - some will have a written or presentation component. For the written component, you will be required to use <a href="https://quarto.org/docs/presentations/">Quarto</a>. For slide presentations, you can use whatever presentation framework that you would like. You will also turn in self-contained Jupyter Notebooks for your projects which will contain your analysis code.</p>
-<p>Late homeworks will be penalized by 50%. Late projects will be penalized by 20%. Late homeworks and projects will only be accepted for two weeks after the due date - after that you will received a grade of zero.</p>
+<p>Late homeworks will be penalized by 50%. Late projects will be penalized by 20%. Late homeworks and projects will only be accepted for two weeks after the due date - after that you will receive a grade of zero.</p>
 <hr>
 </section>
 <section id="reading-material" class="level4">
 <h4 class="anchored" data-anchor-id="reading-material">Reading Material</h4>
-<p>All reading materials for the course are freely available; PDFs will be provided in the aforementioned <a href="https://github.com/pritamdalal/p4dsf">Github Repo</a>. Here is the list of books I will reference:</p>
+<p>All reading materials for the course are freely available; PDFs will be provided in the aforementioned <a href="https://github.com/pritamdalal/p4dsf">Github Repo</a> and Canvas. Here is the list of books I will reference:</p>
 <p><em>Deep Learning with Python 2e</em> - Francois Chollet</p>
 <p><em>Elements of Statistical Learning</em> - Trevor Hastie, Robert Tibshirani, Jerome H. Friedman</p>
 <p><em>Introduction to Statistical Learning Python 1e</em> - Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathon Taylor</p>
@@ -3103,7 +3103,7 @@ vertical-align: -.125em;
 <li>Asset Allocation
 <ul>
 <li>P4DSF: <em>Asset Allocation</em></li>
-<li>homework: asset_allocation</li>
+<li>project: asset_allocation</li>
 </ul></li>
 <li>Trend Following
 <ul>
@@ -3163,6 +3163,7 @@ vertical-align: -.125em;
 <li>slides: resampling_methods</li>
 <li>P4DSF: <em>K Nearest Neighbors &amp; Cross-Validation</em></li>
 <li>homework: k_nearest_neighbors</li>
+<li>homework: default_cross_validation</li>
 </ul></li>
 <li>Stock Market Prediction
 <ul>
@@ -3175,6 +3176,8 @@ vertical-align: -.125em;
 <li>ISLR2e 4.1-4.3</li>
 <li>slides: classification</li>
 <li><a href="http://www.win-vector.com/blog/2011/09/the-simpler-derivation-of-logistic-regression/">Blog: The Simpler Derivation of Logistic Regression</a></li>
+<li>homework: auc_roc_proofs</li>
+<li>homework: weekly_logistic_regression_knn</li>
 </ul></li>
 <li>Principle Components Analysis and Regression
 <ul>
@@ -3211,7 +3214,7 @@ vertical-align: -.125em;
 <li>P4DSF: <em>Student Loan: Alternative Metric &amp; Cross-Validation</em></li>
 <li>P4DSF: <em>Student Loan: Hyperparameter Tuning</em></li>
 <li>P4DSF: <em>Student Loan: xgboost</em></li>
-<li>project: student_loan</li>
+<li>project: student_loan_xgboostx</li>
 </ul></li>
 <li>Data Cleaning
 <ul>
@@ -3230,6 +3233,9 @@ vertical-align: -.125em;
 <li>Tatsat, Puri, Lookabaugh chp 3; pp 71-73</li>
 <li>slides: neural_networks</li>
 <li>P4DSF: <em>MNIST Digit Recognition</em></li>
+<li>P4DSF: <em>IMDB Movie Reviews</em></li>
+<li>P4DSF: <em>Reuters: Classifying News Wires</em></li>
+<li>P4DSF: <em>Boston Housing Prices</em></li>
 <li>P4DSF: <em>Student Loan: Neural Network</em></li>
 <li>P4DSF: <em>Exchange Rate Prediction</em></li>
 <li>P4DSF: <em>Stock Returns: Neural Network</em></li>
@@ -3239,6 +3245,8 @@ vertical-align: -.125em;
 <li><a href="https://www.youtube.com/watch?v=IHZwWFHWa-w&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=2">Youtube: 3Blue1Brown - Neural Networks Episode 2</a></li>
 <li><a href="https://www.youtube.com/watch?v=Ilg3gGewQ5U&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=3">Youtube: 3Blue1Brown - Neural Networks Episode 3</a></li>
 <li><a href="https://www.youtube.com/watch?v=tIeHLnjs4U8&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=4">Youtube: 3Blue1Brown - Neural Networks Episode 4</a></li>
+<li>homework: default_neural_networks</li>
+<li>project: lending_club_project</li>
 </ul></li>
 <li>Programming Topics
 <ul>
@@ -3246,22 +3254,29 @@ vertical-align: -.125em;
 <li>P4DSF: <em>Pipelines and pickles</em></li>
 <li>P4DSF: <em>ColumnTransformers</em></li>
 </ul></li>
-<li>Natural Language Processing</li>
+<li>Natural Language Processing
+<ul>
+<li>P4DSF: <em>Introduction to spaCy</em></li>
+<li>P4DSF: <em>Introduction to nltk</em></li>
+<li>P4DSF: <em>Vectorizing Text</em></li>
+<li>P4DSF: <em>Sentiment Analysis on Stock Headlines</em></li>
+<li>homework: sentiment_analysis</li>
+</ul></li>
 </ol>
 <hr>
 </section>
 <section id="podcasts" class="level4">
 <h4 class="anchored" data-anchor-id="podcasts">Podcasts</h4>
-<p><a href="https://talkpython.fm/episodes/show/44/project-jupyter-and-ipython">Podcast: Talk Python To Me #44 - Project Jupyter and IPython</a></p>
-<p><a href="https://talkpython.fm/episodes/show/56/data-science-from-scratch">Podcast: Talk Python To Me #56 - Data Science from Scratch</a></p>
-<p><a href="https://talkpython.fm/episodes/show/120/python-in-finance">Podcast: Talk Python To Me #120 - Python in Finance</a></p>
-<p><a href="https://talkpython.fm/episodes/show/31/machine-learning-with-python-and-scikit-learn">Podcast: Talk Python To Me #31 - Machine Learning with Python and scikit-learn</a></p>
-<p><a href="https://talkpython.fm/episodes/show/171/1m-jupyter-notebooks-analyzed">Podcast: Talk Python To Me #171 - 1 Million Jupyter Notebooks Analyzed</a></p>
-<p><a href="https://talkpython.fm/episodes/show/131/top-10-machine-learning-libraries">Podcast: Talk Python To Me #131 - Top 10 Machine Learning Libraries</a></p>
-<p><a href="https://talkpython.fm/episodes/show/198/catching-up-with-the-anaconda-distribution">Podcast: Talk Python To Me #198 - Catching Up with the Anaconda Distribution</a></p>
-<p><a href="https://talkpython.fm/episodes/show/220/machine-learning-in-the-cloud-with-azure-ml">Podcast: Talk Python To Me #220 - Machine Learning with Azure ML</a></p>
-<p><a href="https://talkpython.fm/episodes/show/236/scaling-data-science-across-python-and-r">Podcast: Talk Python To Me #236 - Scaling Data Science Across Python and R</a></p>
-<p><a href="https://talkpython.fm/episodes/show/298/building-ml-teams-and-finding-ml-jobs">Podcast: Talk Python To Me #298 - Building ML Teams and Finding ML Jobs</a></p>
+<p><a href="https://talkpython.fm/episodes/show/44/project-jupyter-and-ipython">Talk Python To Me #44 - Project Jupyter and IPython</a></p>
+<p><a href="https://talkpython.fm/episodes/show/56/data-science-from-scratch">Talk Python To Me #56 - Data Science from Scratch</a></p>
+<p><a href="https://talkpython.fm/episodes/show/120/python-in-finance">Talk Python To Me #120 - Python in Finance</a></p>
+<p><a href="https://talkpython.fm/episodes/show/31/machine-learning-with-python-and-scikit-learn">Talk Python To Me #31 - Machine Learning with Python and scikit-learn</a></p>
+<p><a href="https://talkpython.fm/episodes/show/171/1m-jupyter-notebooks-analyzed">Talk Python To Me #171 - 1 Million Jupyter Notebooks Analyzed</a></p>
+<p><a href="https://talkpython.fm/episodes/show/131/top-10-machine-learning-libraries">Talk Python To Me #131 - Top 10 Machine Learning Libraries</a></p>
+<p><a href="https://talkpython.fm/episodes/show/198/catching-up-with-the-anaconda-distribution">Talk Python To Me #198 - Catching Up with the Anaconda Distribution</a></p>
+<p><a href="https://talkpython.fm/episodes/show/220/machine-learning-in-the-cloud-with-azure-ml">Talk Python To Me #220 - Machine Learning with Azure ML</a></p>
+<p><a href="https://talkpython.fm/episodes/show/236/scaling-data-science-across-python-and-r">Talk Python To Me #236 - Scaling Data Science Across Python and R</a></p>
+<p><a href="https://talkpython.fm/episodes/show/298/building-ml-teams-and-finding-ml-jobs">Talk Python To Me #298 - Building ML Teams and Finding ML Jobs</a></p>
 </section>
 
 </main>
