@@ -14,11 +14,11 @@ editor:
 
 #### General Information
 
-**Instructor:** Pritam Dalal (pritam@umn.edu)
+**Instructor:** Pritam Dalal - pritam@umn.edu
 
-**Teaching Assistant:** TBD
+**Teaching Assistant:** Zongxing Li - li002794@umn.edu
 
-**Meeting Times:** Tues 530p-710p (in-person); Thur 530p-620p (hy-flex)
+**Meeting Times:** Tues 530p-710p (in-person); 50 minutes (hy-flex)
 
 **Location:** TBD
 
@@ -26,6 +26,8 @@ editor:
 
 **TA Office Hours:** by appointment (virtual)
     
+**Zoom:** [https://us02web.zoom.us/j/83853307023?pwd=R070G4w92xZEni3XW9YtxLi9kqwz4r.1](https://us02web.zoom.us/j/83853307023?pwd=R070G4w92xZEni3XW9YtxLi9kqwz4r.1)
+
 ***
  
 #### Course Overview
@@ -35,14 +37,14 @@ This course is an introduction to data science and machine learning in quantitat
 
 #### Hy-Flex
 
-In lieu of in-person meetings on Thursdays, there will be a hy-flex assignment each week.  Most of these will consist of tutorials for you to work through on your own time.  However, there will be other formats sprinkled in as well.
+In lieu of the last 50 minutes of class each, there will be a hy-flex assignment each week.  Most of these will consist of tutorials for you to work through on your own time.  However, there will be other formats sprinkled in as well.  This may change for certain class meetings throughout the semester, so be prepared to be in class until 8p each Tuesday.
 
 
 
 ***
 
 #### Programming
-Most of your time inside and outside of class will be spent programming.  It is a requirement that all programming will be done with Python in Jupyter Notebooks.  I will use JupyterLab as my IDE.  In the past, most students have used JupyterLab or VSCode.  
+Most of your time inside and outside of class will be spent programming.  It is a requirement that all programming will be done in Python in Jupyter Notebooks.  I will use JupyterLab as my IDE.  In the past, most students have used JupyterLab or VSCode.  
 
 <!-- We will spend a portion of the first class making sure everyone is up and running with Python and JupterLab. -->
 
@@ -63,7 +65,7 @@ Your letter grade will be based entirely on the individual homework assignments 
 
 Homeworks will be short data analysis programming tasks that are to be completed in the form of a self-contained Jupyter Notebook (written in Python).  For individual assignments, you can discuss them with your classmates, but you are expected to code up your final solution by yourself.  Cheating will result in all involved parties receiving a zero.
 
-Projects will be larger data analysis tasks with - some will have a written or presentation component.  For the written component, you will be required to use  [Quarto](https://quarto.org/docs/presentations/).  For slide presentations, you can use whatever presentation framework that you would like.  You will also turn in self-contained Jupyter Notebooks for your projects which will contain your analysis code.
+Projects will be larger data analysis tasks - some will have a written or presentation component.  For the written component, you will be required to use  [Quarto](https://quarto.org/docs/presentations/).  For slide presentations, you can use whatever presentation framework that you would like.  You will also turn in self-contained Jupyter Notebooks for your projects which will contain your analysis code.
 
 Late homeworks will be penalized by 50%.  Late projects will be penalized by 20%.  Late homeworks and projects will only be accepted for two weeks after the due date - after that you will receive a grade of zero.
 
@@ -81,6 +83,8 @@ All reading materials for the course are freely available; PDFs will be provided
 *Introduction to Statistical Learning R 2e* - Gareth M. James, Trevor Hastie, Daniela Witten, Robert Tibshirani
 
 *Machine Learning and Data Science Blueprints for Finance* - Hariom Tatsat, Sahil Puri, Brad Lookabaugh
+
+[*Machine Learning for Factor Investing*](https://www.mlfactor.com/) - Guillaume Coqueret, Tony Guida
 
 *Options, Futures, and Other Derivatives 9e* - John C. Hull
 
