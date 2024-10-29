@@ -3088,8 +3088,8 @@ vertical-align: -.125em;
 <h4 class="anchored" data-anchor-id="general-information">General Information</h4>
 <p><strong>Instructor:</strong> Pritam Dalal - pritam@umn.edu</p>
 <p><strong>Teaching Assistant:</strong> Zongxing Li - li002794@umn.edu</p>
-<p><strong>Meeting Times:</strong> Tues 530p-710p (in-person); 50 minutes (hy-flex)</p>
-<p><strong>Location:</strong> TBD</p>
+<p><strong>Meeting Times:</strong> Tues 530p-730p (in-person); 50 minutes (hy-flex)</p>
+<p><strong>Location:</strong> 420B Bruininks Hall</p>
 <p><strong>Pritam’s Office Hours:</strong> by appointment (virtual)</p>
 <p><strong>TA Office Hours:</strong> by appointment (virtual)</p>
 <p><strong>Zoom:</strong> <a href="https://us02web.zoom.us/j/83853307023?pwd=R070G4w92xZEni3XW9YtxLi9kqwz4r.1">https://us02web.zoom.us/j/83853307023?pwd=R070G4w92xZEni3XW9YtxLi9kqwz4r.1</a></p>
@@ -3124,6 +3124,7 @@ vertical-align: -.125em;
 <p>Homeworks will be short data analysis programming tasks that are to be completed in the form of a self-contained Jupyter Notebook (written in Python). For individual assignments, you can discuss them with your classmates, but you are expected to code up your final solution by yourself. Cheating will result in all involved parties receiving a zero.</p>
 <p>Projects will be larger data analysis tasks - some will have a written or presentation component. For the written component, you will be required to use <a href="https://quarto.org/docs/presentations/">Quarto</a>. For slide presentations, you can use whatever presentation framework that you would like. You will also turn in self-contained Jupyter Notebooks for your projects which will contain your analysis code.</p>
 <p>Late homeworks will be penalized by 50%. Late projects will be penalized by 20%. Late homeworks and projects will only be accepted for two weeks after the due date - after that you will receive a grade of zero.</p>
+<p>Extensions on homework and projects will not be granted for any reason.</p>
 <hr>
 </section>
 <section id="reading-material" class="level4">
@@ -3213,6 +3214,10 @@ vertical-align: -.125em;
 <li>P4DSF: <em>Volatility Forecasting: GARCH</em></li>
 <li>project: volatility_forecasting</li>
 </ul></li>
+<li>Case Study: <em>Option Data Comparison</em>
+<ul>
+<li>an example of an end-to-end data analysis</li>
+</ul></li>
 <li>Introduction to Machine Learning
 <ul>
 <li>ISLR2e chp 1-2</li>
@@ -3236,14 +3241,6 @@ vertical-align: -.125em;
 <li>P4DSF: <em>Predicting Stock Returns</em></li>
 <li>homework: stock_prediction</li>
 </ul></li>
-<li>Classification:
-<ul>
-<li>ISLR2e 4.1-4.3</li>
-<li>slides: classification</li>
-<li><a href="http://www.win-vector.com/blog/2011/09/the-simpler-derivation-of-logistic-regression/">Blog: The Simpler Derivation of Logistic Regression</a></li>
-<li>homework: auc_roc_proofs</li>
-<li>homework: weekly_logistic_regression_knn</li>
-</ul></li>
 <li>Principle Components Analysis and Regression
 <ul>
 <li>ISLR2e 12.1-12.2</li>
@@ -3259,11 +3256,25 @@ vertical-align: -.125em;
 </ul></li>
 <li>K-means clustering
 <ul>
-<li>ISLR2e 12.4</li>
+<li>ISLR2e 12.4.1</li>
 <li>slides: unsupervised_learning</li>
 <li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html">VanderPlas 5.11</a></li>
 <li>P4DSF: <em>K-Means Clustering</em></li>
 <li>homework: k_means_clustering</li>
+</ul></li>
+<li>Hierarchical Clustering
+<ul>
+<li>ISLR2e 12.4.2</li>
+<li>slides: unsupervised_learning</li>
+<li>Tutorial <em>hierarchical_clustering</em></li>
+</ul></li>
+<li>Classification:
+<ul>
+<li>ISLR2e 4.1-4.3</li>
+<li>slides: classification</li>
+<li><a href="http://www.win-vector.com/blog/2011/09/the-simpler-derivation-of-logistic-regression/">Blog: The Simpler Derivation of Logistic Regression</a></li>
+<li>homework: auc_roc_proofs</li>
+<li>homework: weekly_logistic_regression_knn</li>
 </ul></li>
 <li>Tree-Based Methods:
 <ul>
@@ -3273,17 +3284,25 @@ vertical-align: -.125em;
 <li><a href="https://scikit-learn.org/stable/modules/tree.html">sklearn documentation: Decision Tress</a></li>
 <li><a href="https://scikit-learn.org/stable/modules/ensemble.html#forest">sklearn documentation: Random Forests</a></li>
 </ul></li>
+<li>Data Cleaning
+<ul>
+<li><a href="https://www.kaggle.com/datasets/wordsforthewise/lending-club">Kaggle Lending Club Data</a></li>
+<li>In class data cleaning presentations.</li>
+</ul></li>
 <li>Predicting Student Loan Prepayment
 <ul>
 <li>P4DSF: <em>Student Loan: Overfitting</em></li>
 <li>P4DSF: <em>Student Loan: Alternative Metric &amp; Cross-Validation</em></li>
 <li>P4DSF: <em>Student Loan: Hyperparameter Tuning</em></li>
 <li>P4DSF: <em>Student Loan: xgboost</em></li>
-<li>project: student_loan_xgboostx</li>
 </ul></li>
-<li>Data Cleaning
+<li>Machine Learning for Factor Investing
 <ul>
-<li><a href="https://www.kaggle.com/datasets/wordsforthewise/lending-club">Kaggle Lending Club Data</a></li>
+<li>MLFI chp 1-6</li>
+<li>Tutorial: <em>data_wrangling_exploration</em></li>
+<li>Tutorial: <em>penalized_regressions</em></li>
+<li>Tutorial: <em>tree_based_methods</em></li>
+<li>project: mlfactor_long_only</li>
 </ul></li>
 <li>Option Volume Prediction
 <ul>
@@ -3311,7 +3330,7 @@ vertical-align: -.125em;
 <li><a href="https://www.youtube.com/watch?v=Ilg3gGewQ5U&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=3">Youtube: 3Blue1Brown - Neural Networks Episode 3</a></li>
 <li><a href="https://www.youtube.com/watch?v=tIeHLnjs4U8&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=4">Youtube: 3Blue1Brown - Neural Networks Episode 4</a></li>
 <li>homework: default_neural_networks</li>
-<li>project: lending_club_project</li>
+<li>project: mlfactor_long_short</li>
 </ul></li>
 <li>Programming Topics
 <ul>

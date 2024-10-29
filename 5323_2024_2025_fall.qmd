@@ -18,9 +18,9 @@ editor:
 
 **Teaching Assistant:** Zongxing Li - li002794@umn.edu
 
-**Meeting Times:** Tues 530p-710p (in-person); 50 minutes (hy-flex)
+**Meeting Times:** Tues 530p-730p (in-person); 50 minutes (hy-flex)
 
-**Location:** TBD
+**Location:** 420B Bruininks Hall
 
 **Pritam's Office Hours:** by appointment (virtual)
 
@@ -68,6 +68,8 @@ Homeworks will be short data analysis programming tasks that are to be completed
 Projects will be larger data analysis tasks - some will have a written or presentation component.  For the written component, you will be required to use  [Quarto](https://quarto.org/docs/presentations/).  For slide presentations, you can use whatever presentation framework that you would like.  You will also turn in self-contained Jupyter Notebooks for your projects which will contain your analysis code.
 
 Late homeworks will be penalized by 50%.  Late projects will be penalized by 20%.  Late homeworks and projects will only be accepted for two weeks after the due date - after that you will receive a grade of zero.
+
+Extensions on homework and projects will not be granted for any reason.
 
 ***
 
@@ -163,7 +165,10 @@ This is a tentative schedule and may change at any time without notice.  An up-t
     - P4DSF: *Volatility Forecasting: Close-to-Close Estimator*
     - P4DSF: *Volatility Forecasting: GARCH*
     - project: volatility_forecasting
-    
+
+1. Case Study: *Option Data Comparison*
+    - an example of an end-to-end data analysis
+
 1. Introduction to Machine Learning
     - ISLR2e chp 1-2
     - ESL chp 1-2
@@ -184,14 +189,6 @@ This is a tentative schedule and may change at any time without notice.  An up-t
     - Tatsat, Puri, Lookabaugh pp 95-113
     - P4DSF: *Predicting Stock Returns*
     - homework: stock_prediction
-    
-1. Classification: 
-    - ISLR2e 4.1-4.3
-    - slides: classification
-    - [Blog: The Simpler Derivation of Logistic Regression](http://www.win-vector.com/blog/2011/09/the-simpler-derivation-of-logistic-regression/)
-    - homework: auc_roc_proofs
-    - homework: weekly_logistic_regression_knn
-
 
 1. Principle Components Analysis and Regression
     - ISLR2e 12.1-12.2
@@ -206,12 +203,23 @@ This is a tentative schedule and may change at any time without notice.  An up-t
     - homework: sector_pca
 
 1. K-means clustering
-    - ISLR2e 12.4
+    - ISLR2e 12.4.1
     - slides: unsupervised_learning
     - [VanderPlas 5.11](https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html)
     - P4DSF: *K-Means Clustering*
     - homework: k_means_clustering
+    
+1. Hierarchical Clustering
+    - ISLR2e 12.4.2
+    - slides: unsupervised_learning
+    - Tutorial *hierarchical_clustering*
 
+1. Classification: 
+    - ISLR2e 4.1-4.3
+    - slides: classification
+    - [Blog: The Simpler Derivation of Logistic Regression](http://www.win-vector.com/blog/2011/09/the-simpler-derivation-of-logistic-regression/)
+    - homework: auc_roc_proofs
+    - homework: weekly_logistic_regression_knn
 
 1. Tree-Based Methods:  
     - ISLR2e chp 8
@@ -220,15 +228,23 @@ This is a tentative schedule and may change at any time without notice.  An up-t
     - [sklearn documentation: Decision Tress](https://scikit-learn.org/stable/modules/tree.html)
     - [sklearn documentation: Random Forests](https://scikit-learn.org/stable/modules/ensemble.html#forest)
 
+
+1. Data Cleaning
+    - [Kaggle Lending Club Data](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+    - In class data cleaning presentations.
+
 1. Predicting Student Loan Prepayment
     - P4DSF: *Student Loan: Overfitting*
     - P4DSF: *Student Loan: Alternative Metric & Cross-Validation*
     - P4DSF: *Student Loan: Hyperparameter Tuning*
     - P4DSF: *Student Loan: xgboost*
-    - project: student_loan_xgboostx
-
-1. Data Cleaning
-    - [Kaggle Lending Club Data](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+    
+1. Machine Learning for Factor Investing
+    - MLFI chp 1-6
+    - Tutorial: *data_wrangling_exploration*
+    - Tutorial: *penalized_regressions*
+    - Tutorial: *tree_based_methods*
+    - project: mlfactor_long_only
 
 1. Option Volume Prediction
     - P4DSF: *Option Volume: Introduction*
@@ -254,7 +270,7 @@ This is a tentative schedule and may change at any time without notice.  An up-t
     - [Youtube: 3Blue1Brown - Neural Networks Episode 3](https://www.youtube.com/watch?v=Ilg3gGewQ5U&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=3)
     - [Youtube: 3Blue1Brown - Neural Networks Episode 4](https://www.youtube.com/watch?v=tIeHLnjs4U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4)
     - homework: default_neural_networks
-    - project: lending_club_project
+    - project: mlfactor_long_short
     
 1. Programming Topics
     - P4DSF: *Virtual Enviroments*
