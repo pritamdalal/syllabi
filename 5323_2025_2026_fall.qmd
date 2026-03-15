@@ -1,0 +1,362 @@
+---
+title: "FM 5323 - Fall 2025"
+format:
+  html: 
+    toc: true
+    toc-depth: 4
+    theme: lumen
+    embed-resources: true
+editor:
+  render-on-save: true
+---
+
+***
+
+#### General Information
+
+**Instructor:** Pritam Dalal - pritam@umn.edu
+
+**Teaching Assistant:** Maurice Lim - lim00248@umn.edu
+
+**Meeting Times:** Tues 530p-800p (in-person); 20 minutes (hy-flex)
+
+**Location:** 512B Bruininks Hall
+
+**Pritam's Office Hours:** by appointment (virtual)
+
+**TA Office Hours:** by appointment (virtual)
+    
+**Zoom:** [https://us02web.zoom.us/j/85943092044?pwd=aDVNEUOnM94gvlUwDIr13YF3VNcKoc.1](https://us02web.zoom.us/j/85943092044?pwd=aDVNEUOnM94gvlUwDIr13YF3VNcKoc.1)
+
+***
+ 
+#### Course Overview
+This course is an introduction to data science and machine learning in quantitative finance.  Emphasis will be placed on the implementation of models in code, but there will also be treatment of some of the mathematical underpinnings of the models and techniques. By the end of the course, students should be able to apply a variety of techniques to a given problem, and to give some comparative assessment of model performance.
+
+***
+
+#### Hy-Flex
+
+In lieu of the last 20 minutes of class each, there will be a hy-flex assignment each week.  Most of these will consist of tutorials for you to work through on your own time.  However, there will be other formats sprinkled in as well.  This may change for certain class meetings throughout the semester, so be prepared to be in class until 820p each Tuesday.
+
+
+***
+
+#### Attendance and No Late Arrivals
+
+There is not a formal attendance policy for this course - though there may be a few class sessions with graded in class activities.  However, there is a strict policy on arriving to class late.  Please do not arrive to in-person class more than 10 minutes late: 540p.  If you do so, I will ask you to leave.  Late arrivals are disruptive to the other student, and bad manners generally.  Moreover, there will be an option of attending via Zoom, so please use that if your schedule requires it.
+
+***
+
+#### Programming
+Most of your time inside and outside of class will be spent programming.  It is a requirement that all programming will be done in Python in Jupyter Notebooks.  I will use JupyterLab as my IDE.  In the past, most students have used JupyterLab or VSCode.  
+
+***
+
+#### Canvas and Github Repo
+
+Course materials will be split between Canvas and the following Github repo: [https://github.com/pritamdalal/p4dsf](https://github.com/pritamdalal/p4dsf)
+
+(Eventually my goal is to have all materials in the repo, but I'm still transitioning, so thank you for your patience.)
+
+All homework assignments and projects will be posted and turned-in on Canvas.
+
+***
+#### Grading
+
+Your letter grade will be based on the following components:
+
+- Homeworks: 20%
+
+- Project - Asset Allocation: 10%
+
+- Project - Volatility Forecasting: 10%
+
+- Project - ML Factor Long-Only: 15%
+
+- Project - ML Factor Long-Short: 15%
+
+- Final Exam: 30%
+
+Homeworks will be short data analysis programming tasks that are to be completed in the form of a self-contained Jupyter Notebook (written in Python).  For individual assignments, you can discuss them with your classmates, but you are expected to code up your final solution by yourself.  Cheating will result in all involved parties receiving a zero.
+
+Projects will be larger data analysis tasks - some will have a written or presentation component.  For the written component, you will be required to use  [Quarto](https://quarto.org/docs/presentations/).  For slide presentations, you can use whatever presentation framework that you would like.  You will also turn in a self-contained project directory that will contain Jupyter Notebooks, scripts, intermediate data sets, etc.
+
+Late homeworks will be penalized by 50%.  Late projects will be penalized by 20%.  Late homeworks and projects will only be accepted for two weeks after the due date - after that you will receive a grade of zero.
+
+Extensions on homework and projects will not be granted for any reason.
+
+***
+
+#### Reading Material
+All reading materials for the course are freely available; PDFs will be provided in the aforementioned [Github Repo](https://github.com/pritamdalal/p4dsf) and Canvas.  Here is the list of books I will reference:
+
+*Deep Learning with Python 2e* - Francois Chollet
+
+*Elements of Statistical Learning* - Trevor Hastie, Robert Tibshirani, Jerome H. Friedman
+
+*Introduction to Statistical Learning Python 1e* - Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathon Taylor
+
+*Introduction to Statistical Learning R 2e* - Gareth M. James, Trevor Hastie, Daniela Witten, Robert Tibshirani
+
+*Machine Learning and Data Science Blueprints for Finance* - Hariom Tatsat, Sahil Puri, Brad Lookabaugh
+
+[*Machine Learning for Factor Investing*](https://www.mlfactor.com/) - Guillaume Coqueret, Tony Guida
+
+*Options, Futures, and Other Derivatives 9e* - John C. Hull
+
+[*Python Data Science Handbook*](https://jakevdp.github.io/PythonDataScienceHandbook/) - Jake VanderPlas
+
+*Python for Data Analysis 2e* - Wes McKinney
+
+[*Python for Data Analysis 3e*](https://wesmckinney.com/book/) - Wes McKinney
+
+
+[*Python for Data Science in Finance*](https://pritamdalal.github.io/p4dsf/) - Pritam Dalal
+
+*Python for Finance 2e* - Yves Hilpsch
+
+
+
+
+
+***
+
+#### Topics
+This is a tentative schedule and may change at any time without notice.  An up-to-date syllabus will always be available in Canvas.  Please attend class to stay abreast of changes.
+
+1. Python Data Analysis Fundamentals: **jupyter**, **numpy**, **pandas**  
+    - Hilpsch chp 2, 4
+    - McKinney chp 4-5, 8, 10, 12
+    - VanderPlas [chp 2](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) & [chp 3](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html)
+    - P4DSF: *Basic Data Wrangling*
+    
+1. Introduction to Data Science
+    - [VanderPlas Preface](https://jakevdp.github.io/PythonDataScienceHandbook/00.00-preface.html)
+    - slides: data_science_intro
+    
+1. Understanding Option Replication via Data Analysis
+    - Hull chp 19
+    - Hilpsch pp 356-358
+    - P4DSF: *Black-Scholes-Merton Option Replication*
+    - homework: option_pnl
+
+1. Asset Allocation
+    - P4DSF: *Asset Allocation*
+    - project: asset_allocation
+    
+1. Trend Following
+    - P4DSF: *Trend Following*
+    - *A Quantitative Approach to Tactical Asset Allocation* - Meb Faber 2013
+
+1. Visualization: **pandas**, **seaborn**, **bokeh**
+    - slides: visualization_in_python
+    - P4DSF: *Visualization*
+    - [Youtube: The Python Visualization Landscape PyCon 2017](https://www.youtube.com/watch?v=FytuB8nFHPQ)
+
+
+1. Quarto
+    - [https://quarto.org/](https://quarto.org/)
+    - [https://github.com/pritamdalal/posit_python_quarto](https://github.com/pritamdalal/posit_python_quarto)
+    - Example (in Canvas): machine_learning_in_finance
+    - Example (in Canvas): corn_soybean_analysis
+    - slides: posit_python_quarto
+
+1. Linear Regression & Introduction to **sklearn**
+    - ISLR2e chp 3
+    - ESL 3.1-3.2
+    - [Vanderplas 5.2](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html)
+    - [Vanderplas 5.6](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html)
+    - slides: linear_regression
+    - P4DSF: *Regression: Mutual Fund*
+    - P4DSF: *Simple Linear Regression*
+    - P4DSF: *Linear Regression with Categorical Variables*
+    - P4DSF: *Ridge and Lasso Regression*
+    - homework: ewz_regression
+    
+ 1. Volatility Forecasting
+    - Hull pp 521-526
+    - *Volatility Modeling and Trading* - Sepp 2016 pp 1-55
+    - *Measuring Historical Volatility* - Bennett & Gil 2012
+    - *Does Anything Beat a GARCH(1,1)* - Hansen & Lunde 2004
+    - slides: volatility_forecasting
+    - P4DSF: *Volatility Forecasting: Close-to-Close Estimator*
+    - P4DSF: *Volatility Forecasting: GARCH*
+    - project: volatility_forecasting
+
+1. Case Study: *Option Data Comparison*
+    - an example of an end-to-end data analysis
+
+1. Introduction to Machine Learning
+    - ISLR2e chp 1-2
+    - ESL chp 1-2
+    - [VanderPlas 5.1](https://jakevdp.github.io/PythonDataScienceHandbook/05.01-what-is-machine-learning.html)
+    - slides: machine_learning_intro
+
+
+1. K-Nearest Neighbors & Cross-Validation: 
+    - ISLR2e chp 5
+    - [sklearn documentation: cross-validation](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation)
+    - [VanderPlas 5.3](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html)
+    - slides: resampling_methods
+    - P4DSF: *K Nearest Neighbors & Cross-Validation*
+    - homework: k_nearest_neighbors
+    - homework: default_cross_validation
+
+1. Stock Market Prediction
+    - Tatsat, Puri, Lookabaugh pp 95-113
+    - P4DSF: *Predicting Stock Returns*
+    - homework: stock_prediction
+
+1. Principle Components Analysis and Regression
+    - ISLR2e 12.1-12.2
+    - ISLR2e 6.3.1
+    - [VanderPlas 4.9](https://jakevdp.github.io/PythonDataScienceHandbook/04.09-principal-component-analysis.html)
+    - [sklearn documentation: PCA](https://scikit-learn.org/stable/modules/decomposition.html#pca)
+    - slides: unsupervised_learning
+    - P4DSF: *Principal Components Analysis*
+    - P4DSF: *Principal Components Regression*
+    - P4DSF: *Principal Components Logistic Regression*
+    - P4DSF: *Visualizing Principal Components Analysis*
+    - homework: sector_pca
+
+1. K-means clustering
+    - ISLR2e 12.4.1
+    - slides: unsupervised_learning
+    - [VanderPlas 5.11](https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html)
+    - P4DSF: *K-Means Clustering*
+    - homework: k_means_clustering
+    
+1. Hierarchical Clustering
+    - ISLR2e 12.4.2
+    - slides: unsupervised_learning
+    - Tutorial *hierarchical_clustering*
+
+1. Classification: 
+    - ISLR2e 4.1-4.3
+    - slides: classification
+    - [Blog: The Simpler Derivation of Logistic Regression](http://www.win-vector.com/blog/2011/09/the-simpler-derivation-of-logistic-regression/)
+    - homework: auc_roc_proofs
+    - homework: weekly_logistic_regression_knn
+
+1. Tree-Based Methods:  
+    - ISLR2e chp 8
+    - slides: tree_based_methods
+    - [VanderPlas 5.8](https://jakevdp.github.io/PythonDataScienceHandbook/05.08-random-forests.html)
+    - [sklearn documentation: Decision Tress](https://scikit-learn.org/stable/modules/tree.html)
+    - [sklearn documentation: Random Forests](https://scikit-learn.org/stable/modules/ensemble.html#forest)
+
+
+1. Data Cleaning
+    - [Kaggle Lending Club Data](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+    - In class data cleaning presentations.
+
+1. Predicting Student Loan Prepayment
+    - P4DSF: *Student Loan: Overfitting*
+    - P4DSF: *Student Loan: Alternative Metric & Cross-Validation*
+    - P4DSF: *Student Loan: Hyperparameter Tuning*
+    - P4DSF: *Student Loan: xgboost*
+    
+1. Machine Learning for Factor Investing
+    - MLFI chp 1-6
+    - Tutorial: *data_wrangling_exploration*
+    - Tutorial: *penalized_regressions*
+    - Tutorial: *tree_based_methods*
+    - project: mlfactor_long_only
+
+1. Option Volume Prediction
+    - P4DSF: *Option Volume: Introduction*
+    - P4DSF: *Option Volume: Feature Selection and Hyperparameter Tuning*
+    - P4DSF: *Option Volume: xgboost*
+    
+1. Neural Networks
+    - Chollet chp 1-6
+    - ISLR2e 10.1-10.2; 10.7.0-10.7.3
+    - Tatsat, Puri, Lookabaugh chp 3; pp 71-73
+    - slides: neural_networks
+    - P4DSF: *MNIST Digit Recognition*
+    - P4DSF: *IMDB Movie Reviews*
+    - P4DSF: *Reuters: Classifying News Wires*
+    - P4DSF: *Boston Housing Prices*
+    - P4DSF: *Student Loan: Neural Network*
+    - P4DSF: *Exchange Rate Prediction*
+    - P4DSF: *Stock Returns: Neural Network*
+    - P4DSF: *Numerai*
+    - P4DSF: *Exchange Rate: Recurrent Neural Network*
+    - [Youtube: 3Blue1Brown - Neural Networks Episode 1](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1)
+    - [Youtube: 3Blue1Brown - Neural Networks Episode 2](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2)
+    - [Youtube: 3Blue1Brown - Neural Networks Episode 3](https://www.youtube.com/watch?v=Ilg3gGewQ5U&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=3)
+    - [Youtube: 3Blue1Brown - Neural Networks Episode 4](https://www.youtube.com/watch?v=tIeHLnjs4U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4)
+    - homework: default_neural_networks
+    - project: mlfactor_long_short
+    
+1. Programming Topics
+    - P4DSF: *Virtual Enviroments*
+    - P4DSF: *Pipelines and pickles*
+    - P4DSF: *ColumnTransformers*
+    
+1. Natural Language Processing
+    - P4DSF: *Introduction to spaCy*
+    - P4DSF: *Introduction to nltk*
+    - P4DSF: *Vectorizing Text*
+    - P4DSF: *Sentiment Analysis on Stock Headlines*
+    - homework: sentiment_analysis
+
+***
+
+#### Podcasts
+[Talk Python To Me #44 - Project Jupyter and IPython](https://talkpython.fm/episodes/show/44/project-jupyter-and-ipython)
+
+[Talk Python To Me #56 - Data Science from Scratch](https://talkpython.fm/episodes/show/56/data-science-from-scratch)
+
+[Talk Python To Me #120 - Python in Finance](https://talkpython.fm/episodes/show/120/python-in-finance)
+
+[Talk Python To Me #31 - Machine Learning with Python and scikit-learn](https://talkpython.fm/episodes/show/31/machine-learning-with-python-and-scikit-learn)
+
+[Talk Python To Me #171 - 1 Million Jupyter Notebooks Analyzed](https://talkpython.fm/episodes/show/171/1m-jupyter-notebooks-analyzed)
+
+[Talk Python To Me #131 - Top 10 Machine Learning Libraries](https://talkpython.fm/episodes/show/131/top-10-machine-learning-libraries)
+
+[Talk Python To Me #198 - Catching Up with the Anaconda Distribution](https://talkpython.fm/episodes/show/198/catching-up-with-the-anaconda-distribution)
+
+[Talk Python To Me #220 - Machine Learning with Azure ML](https://talkpython.fm/episodes/show/220/machine-learning-in-the-cloud-with-azure-ml)
+
+[Talk Python To Me #236 - Scaling Data Science Across Python and R](https://talkpython.fm/episodes/show/236/scaling-data-science-across-python-and-r)
+
+[Talk Python To Me #298 - Building ML Teams and Finding ML Jobs](https://talkpython.fm/episodes/show/298/building-ml-teams-and-finding-ml-jobs)
+
+[Talk Python To Me #322 - A Path Into Data Science](https://talkpython.fm/episodes/show/322/a-path-into-data-science)
+
+[Talk Python To Me #384 - Python Data Visualization - Where to Start](https://talkpython.fm/episodes/show/384/python-data-visualization-where-to-start)
+
+[Talk Python To Me #392 - Data Science from the Command Line](https://talkpython.fm/episodes/show/392/data-science-from-the-command-line)
+
+[Talk Python To Me #394 - Awesome Jupyter Libraries and Extensions in 2022](https://talkpython.fm/episodes/show/394/awesome-jupyter-libraries-and-extensions-in-2022)
+
+[Talk Python To Me #402 - Polars: a Lightning fast Dataframe for Python](https://talkpython.fm/episodes/show/402/polars-a-lightning-fast-dataframe-for-python-updated-audio)
+
+[Talk Python To Me #410 - The Intersection of Tabular Data and Generative AI](https://talkpython.fm/episodes/show/410/the-intersection-of-tabular-data-and-generative-ai)
+
+[Talk Python To Me #421 - Python at Netflix](https://talkpython.fm/episodes/show/421/python-at-netflix)
+
+[Talk Python To Me #422 - How data scientists use Python](https://talkpython.fm/episodes/show/422/how-data-scientists-use-python)
+
+[Talk Python To Me #424 - Shiny for Python](https://talkpython.fm/episodes/show/424/shiny-for-python)
+
+[Talk Python To Me #454 - Data Pipelines with Dagster](https://talkpython.fm/episodes/show/454/data-pipelines-with-dagster)
+
+[Talk Python To Me #462 - Pandas and Beyond wih Wes McKinney](https://talkpython.fm/episodes/show/462/pandas-and-beyond-with-wes-mckinney)
+
+[Talk Python To Me #477 - Awesome Text Tricks with NLP and spaCy](https://talkpython.fm/episodes/show/477/awesome-text-tricks-with-nlp-and-spacy)
+
+[Talk Python To Me #491 - DuckDB and Python: Ducks and Snakes living together](https://talkpython.fm/episodes/show/491/duckdb-and-python-ducks-and-snakes-living-together)
+
+[Talk Python To Me #492 - Great Tables](https://talkpython.fm/episodes/show/492/great-tables)
+
+[Talk Python To Me #493 - Quarto: Open-source technical publishing](https://talkpython.fm/episodes/show/493/quarto-open-source-technical-publishing)
+
+[Talk Python To Me #503 - The PyArrow Revolution](https://talkpython.fm/episodes/show/503/the-pyarrow-revolution)
+
+[Talk Python To Me #510 - 10 Polars Tools and Techniques To Level Up Your Data Science](https://talkpython.fm/episodes/show/510/10-polars-tools-and-techniques-to-level-up-your-data-science)
+
+[Talk Python To Me #511 - From Notebooks to Production Data Science Systems](https://talkpython.fm/episodes/show/511/from-notebooks-to-production-data-science-systems)
